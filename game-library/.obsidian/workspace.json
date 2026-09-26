@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "7151df78a302150c",
+    "type": "split",
+    "children": [
+      {
+        "id": "59145c9bbaed195d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96c0258a7be412e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Library/Wolfenstein - The New Order.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wolfenstein - The New Order"
+            }
+          },
+          {
+            "id": "7e491e42300b39ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Library/Wolfenstein - The New Colossus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wolfenstein - The New Colossus"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c99b0801df15b7eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f136afdefe483807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "557a6701703be3ae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a2e22006ea87b8f6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "acc7e0a7a74c4cba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4cf93bb33a7c4850",
+    "type": "split",
+    "children": [
+      {
+        "id": "357db0a22775398d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bde52bc530fd2090",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 Library/Wolfenstein - The New Colossus.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "43c1a5d009faba92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 Library/Wolfenstein - The New Colossus.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "442c06b64093b4cf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9b074fea1b92ab65",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d3d2cadffec54e0f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 Library/Wolfenstein - The New Colossus.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "7e491e42300b39ec",
+  "lastOpenFiles": [
+    "02 Library/Wolfenstein - The New Order.md",
+    "02 Library/Wolfenstein - The New Colossus.md",
+    "Attachments/02 Library/Wolfenstein - The New Colossus",
+    "Attachments/02 Library/Wolfenstein - The New Colossus/IMG-Wolfenstein - The New Colossus.webp",
+    "Attachments/02 Library/Wolfenstein - The New Order",
+    "Attachments/02 Library/Wolfenstein - The New Order/IMG-Wolfenstein - The New Order.webp",
+    "01 Tracking/Play Next.md",
+    "05 Status/Backlog.md",
+    "02 Library/Dishonored.md",
+    "01 Tracking/Play Soon.md",
+    "02 Library/Nier - Automata.md",
+    "Attachments/02 Library/Nier - Automata",
+    "Attachments/02 Library/Nier - Automata/IMG-Nier - Automata.webp",
+    "05 Status/Ongoing.md",
+    "05 Status/Retired.md",
+    "05 Status/Playing.md",
+    "05 Status/Completed.md",
+    "Attachments/02 Library/Dishonored",
+    "Attachments/02 Library/Dishonored/IMG-Dishonored.webp",
+    "02 Library/Wolfenstein II - The New Colossus.md",
+    "Templates/Template - Game.md",
+    "Attachments/02 Library/Wolfenstein - The New Order/IMG-20260906140217400.webp",
+    "Templates/Template - Platform.md",
+    "Attachments/02 Library/Wolfenstein II - The New Colossus",
+    "Attachments/02 Library/Wolfenstein II - The New Colossus/IMG-20260906132850197.webp",
+    "02 Library/Baldurs Gate III.md",
+    "Attachments/02 Library/Baldurs Gate III",
+    "Attachments/02 Library",
+    "Attachments/02 Library/Baldurs Gate III/IMG-20260906120552723.png",
+    "TScripts/title_format.js",
+    "Scripts/game_adder.js",
+    "Scripts/library_updater.js",
+    "Templates/Template - Status.md",
+    "Templates/Template - Store.md",
+    "Templates/Template - Tracking.md",
+    "03 Stores/GOG.md",
+    "03 Stores/Xbox.md",
+    "03 Stores/Physical.md",
+    "03 Stores/Steam.md",
+    "04 Platforms/Nintendo Switch.md",
+    "04 Platforms/Playstation 4.md",
+    "04 Platforms/Xbox Series X.md"
+  ]
+}

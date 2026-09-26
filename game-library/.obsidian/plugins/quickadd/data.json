@@ -1,0 +1,454 @@
+{
+  "choices": [
+    {
+      "id": "ba674741-fafc-4382-8d30-123fbdf40ad9",
+      "name": "Library Updates",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "02ceb830-9e49-4b24-85d1-541dc15a3494",
+          "name": "Store Template",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Templates/Template - Store.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:fileName}}"
+          },
+          "discoverExistingNotesBeforeCreate": false,
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "{{VALUE:folder}}"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "copyLinkToClipboard": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "overwrite"
+          }
+        },
+        {
+          "id": "13315027-c2c4-4e9c-91cb-5289610e8485",
+          "name": "Platform Template",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Templates/Template - Platform.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:fileName}}"
+          },
+          "discoverExistingNotesBeforeCreate": false,
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "{{VALUE:folder}}"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "copyLinkToClipboard": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "overwrite"
+          }
+        },
+        {
+          "id": "f5aef334-f479-434f-bd9a-666c1a228207",
+          "name": "Status Template",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Templates/Template - Status.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:fileName}}"
+          },
+          "discoverExistingNotesBeforeCreate": false,
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "{{VALUE:folder}}"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "copyLinkToClipboard": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "overwrite"
+          }
+        },
+        {
+          "id": "0197e63e-0eb6-4d10-8265-7bbc67fa5557",
+          "name": "Tracking Template",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Templates/Template - Tracking.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:fileName}}"
+          },
+          "discoverExistingNotesBeforeCreate": false,
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "{{VALUE:folder}}"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "copyLinkToClipboard": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "overwrite"
+          }
+        },
+        {
+          "id": "4b3c3a58-f816-4f83-a261-bb6d4d3bdd40",
+          "name": "Library Update",
+          "type": "Macro",
+          "command": true,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Library Update",
+            "id": "429579fb-0060-46ac-8ef4-0756cafca0b7",
+            "commands": [
+              {
+                "name": "library_updater",
+                "type": "UserScript",
+                "id": "dafb941d-abbc-4c40-89f9-13c020943fb5",
+                "path": "Scripts/library_updater.js",
+                "settings": {
+                  "Game Store Folder": "03 Stores",
+                  "Game Platform Folder": "04 Platforms",
+                  "Game Status Folder": "05 Status",
+                  "Game Tracking Folder": "01 Tracking",
+                  "Store Choice Name": "Store Template",
+                  "Platform Choice Name": "Platform Template",
+                  "Status Choice Name": "Status Template",
+                  "Tracking Choice Name": "Tracking Template"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "fff3bbe2-3cd1-4f36-9c28-cf7b051cf94a",
+      "name": "Game Updates",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "5eb17ccc-ee62-475b-9a6e-02855fef1c60",
+          "name": "Game Template",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Templates/Template - Game.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:gameName}}"
+          },
+          "discoverExistingNotesBeforeCreate": false,
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "02 Library"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "copyLinkToClipboard": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsBehavior": {
+            "kind": "prompt"
+          }
+        },
+        {
+          "id": "ed88ecd9-e8c1-476e-9fe1-d40f7186c906",
+          "name": "Game Add",
+          "type": "Macro",
+          "command": true,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Game Add",
+            "id": "81fe3818-6859-4323-8904-26d47ec4ac0e",
+            "commands": [
+              {
+                "name": "game_adder",
+                "type": "UserScript",
+                "id": "b068c551-641f-4f99-82c0-7bb221b586ff",
+                "path": "Scripts/game_adder.js",
+                "settings": {
+                  "Game Library Folder": "02 Library",
+                  "Game Store Folder": "03 Stores",
+                  "Game Platform Folder": "04 Platforms",
+                  "Game Status Folder": "05 Status",
+                  "Templates Folder": "Templates",
+                  "Game Template Name": "Template - Game"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "fc52f5c1-3779-4e7e-bc1b-3a4f4c002fc2",
+          "name": "Download Images",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Download Images",
+            "id": "58995065-077f-4545-bcca-ed5ec98fd75a",
+            "commands": [
+              {
+                "name": "Download attachments for current file",
+                "type": "Obsidian",
+                "id": "df6eb037-9ae6-496c-b0c9-0d2597ff23f3",
+                "commandId": "editor:download-attachments"
+              }
+            ]
+          }
+        }
+      ],
+      "collapsed": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "persistInputPromptDrafts": true,
+  "useSelectionAsCaptureValue": true,
+  "namePastedImagesAfterNoteTitle": false,
+  "searchNestedChoices": true,
+  "templateFolderLauncherRow": "bottom",
+  "devMode": false,
+  "templateFolderPaths": [
+    "Templates"
+  ],
+  "announceUpdates": "major",
+  "version": "2.24.2",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
+  "disableOnlineFeatures": true,
+  "enableUriCallbacks": false,
+  "enableRibbonIcon": false,
+  "showCaptureNotification": true,
+  "showInputCancellationNotification": false,
+  "enableTemplatePropertyTypes": false,
+  "dateAliases": {
+    "t": "today",
+    "tm": "tomorrow",
+    "yd": "yesterday",
+    "nw": "next week",
+    "nm": "next month",
+    "ny": "next year",
+    "lw": "last week",
+    "lm": "last month",
+    "ly": "last year"
+  },
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\\text{new}}:=w_{ij}^{\\text{current}}+\\eta\\cdot\\delta_j\\cdot x_{ij}$$ on a separate line, but you can write \"($\\eta$ = learning rate, $\\delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "id": "openai",
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "kind": "openai",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-5.5",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.4",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.4-mini",
+            "maxTokens": 400000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.4-nano",
+            "maxTokens": 400000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-4.1",
+            "maxTokens": 1047576,
+            "maxOutputTokens": 32768,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gpt-4.1-mini",
+            "maxTokens": 1047576,
+            "maxOutputTokens": 32768,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000,
+            "maxOutputTokens": 16384,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000,
+            "maxOutputTokens": 16384,
+            "supportsTemperature": true
+          },
+          {
+            "name": "o3",
+            "maxTokens": 200000,
+            "maxOutputTokens": 100000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "o4-mini",
+            "maxTokens": 200000,
+            "maxOutputTokens": 100000,
+            "supportsTemperature": false
+          }
+        ],
+        "autoSyncModels": true,
+        "modelSource": "modelsDev"
+      },
+      {
+        "id": "gemini",
+        "name": "Gemini",
+        "endpoint": "https://generativelanguage.googleapis.com",
+        "kind": "gemini",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gemini-3.5-flash",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-3.1-pro-preview",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-3.1-flash-lite",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-3-pro-preview",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-3-flash-preview",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-2.5-pro",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-2.5-flash",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-2.5-flash-lite",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          }
+        ],
+        "autoSyncModels": true,
+        "modelSource": "modelsDev"
+      }
+    ],
+    "confirmToolCalls": "destructive"
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "consolidateFileExistsBehavior": true,
+    "repairTemplateFileExistsBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true,
+    "backfillFileOpeningDefaults": true,
+    "setProviderModelDiscoveryMode": true,
+    "migrateProviderApiKeysToSecretStorage": true,
+    "migrateToMultipleTemplateFolders": true,
+    "refreshStaleDefaultModelSeeds": true,
+    "pinAiModelRefs": true
+  }
+}
